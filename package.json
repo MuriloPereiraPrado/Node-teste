@@ -1,19 +1,20 @@
 {
-  "name": "primeiro_node",
+  "name": "curso",
   "version": "1.0.0",
   "description": "aplicação de node",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "teste",
-    "react-native"
+    "curso"
   ],
   "author": "Murilo-Pereira",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
   }
 }
